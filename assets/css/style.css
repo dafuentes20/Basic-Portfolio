@@ -11,7 +11,7 @@ nav {
 }
 .brand {
     float: left;
-    background-color: #44aaaa;
+    background-color: #4aaaa5;
     font-size: 30px;
     font-family: Georgia, 'Times New Roman', Times, serif;
     color: #ffffff;
@@ -23,10 +23,14 @@ nav ul {
     list-style-type: none;
     padding: 35px;
     margin-top: 0px;
+    text-decoration: none;
+    
 }
+
 nav ul li {
     float: left;
-    padding-right: 30px
+    padding-right: 30px;
+    text-decoration: none;
 }
 .container {
     max-width: 960px;
@@ -36,6 +40,7 @@ nav ul li {
     background-color: #ffffff;
     padding: 20px;
     margin: 25px;
+    height: 700px;
 }
 .myself {
     float: left;
@@ -50,12 +55,7 @@ p {
     display: block;
     clear: both;
 }
-.green-box {
-    position: relative;
-    background: #44aaaa;
-    height: 5px;
-    width: 100%;
-}
+
 .gray-box {
     position: absolute;
     background: #666666;
@@ -70,4 +70,28 @@ p {
 }
 footer {
     text-align: center;
+    bottom: 0;
+    position: fixed;
+    border-top: 5px solid #4aaaa5;
 }
+a:default {
+    color:orange;
+}
+a:hover {
+    color: greenyellow;
+}
+a:focus {
+    color: pink;
+}
+a:active{
+color: red;
+}
+.tag{
+    position: absolute;
+    background-color: #4aaaa5;
+    color: white;
+    width: 200px;
+    text-align: center;
+	bottom: 50px;
+}
+
